@@ -1,4 +1,4 @@
-# E-commerce Analytics SQL Project
+# E-Commerce Analytics SQL Project
 
 ## Project Overview
 This project simulates an e-commerce database and provides a foundation for writing complex SQL queries to generate business insights. The database consists of four main tables: `customers`, `orders`, `products`, and `order_items`. These tables are being used to practice and demonstrate SQL concepts such as joins, aggregations, and subqueries.
@@ -32,7 +32,7 @@ This project simulates an e-commerce database and provides a foundation for writ
 └── README.md         # Project documentation
 ```
 
-## Tasks to Try
+## Tasks
 - Get top 3 customers by order amount
 - List customers who haven't ordered anything
 - Join orders and order_items to get total sales per product
