@@ -21,7 +21,7 @@ This project simulates an e-commerce database and provides a foundation for writ
 │   ├── create_tables.sql
 │   └── insert_sample_data.sql
 │
-├── queries/          # Your SQL queries for analysis and insights
+├── queries/          # SQL queries for analysis and insights
 │   ├── top_customers.sql
 │   ├── customers_without_orders.sql
 │   ├── sales_per_product.sql
