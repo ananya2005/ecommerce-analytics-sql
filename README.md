@@ -50,7 +50,7 @@ customers
 
 **Legend:**
 - ──<  : one-to-many relationship
-- >──  : many-to-one relationship
+-  ->──  : many-to-one relationship
 
 ## Tasks
 - Get top 3 customers by order amount
