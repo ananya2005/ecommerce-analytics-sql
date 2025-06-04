@@ -31,6 +31,26 @@ This project simulates an e-commerce database and provides a foundation for writ
 │
 └── README.md         # Project documentation
 ```
+## Entity-Relationship (ER) Diagram
+
+Below is a textual ER diagram representing the relationships between the tables in this project:
+
+```
+customers
+  └──< orders
+         └──< order_items >──┐
+                             |
+                        products
+```
+
+- **customers** (id) ──< **orders** (customer_id)
+- **orders** (order_id) ──< **order_items** (order_id)
+- **products** (product_id) ──< **order_items** (product_id)
+- **customers** (id) ──< **customers** (referrer_id) *(self-referencing for referrals)*
+
+**Legend:**
+- ──<  : one-to-many relationship
+- >──  : many-to-one relationship
 
 ## Tasks
 - Get top 3 customers by order amount
